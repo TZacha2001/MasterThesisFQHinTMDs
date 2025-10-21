@@ -377,11 +377,13 @@ if __name__ == "__main__":
     kwargs['V1'] = 0.5
     kwargs['D'] = 0
     kwargs['Lx'] = 2
-    kwargs['Ly'] = 6
+    kwargs['Ly'] = 3
     kwargs['chi_max'] = 256//2
-    kwargs['Nsec'] = 6 # fix total particle number
+    kwargs['Nsec'] = 2 # fix total particle number
     kwargs['t2'] = -0.25
-    for kk in np.array([3]):
+    kwargs['phi_exts'] = np.linspace(0, 9, 91)
+    for kk in np.array([2]):
         kwargs['ktot'] = kk # fix total momentum sector
 
-        run_simulation_Hofst_LG_pi_2(**kwargs)
+        charge_pumping_pi2(**kwargs)
+        #run_simulation_Hofst_LG_pi_2(**kwargs)
