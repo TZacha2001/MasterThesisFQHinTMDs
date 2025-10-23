@@ -8,7 +8,7 @@ config = {
     'jobname': 'cpump_ML',
     'task': {
         'type': 'PythonFunctionCall',
-        'module': 'mixedxk_Hofstadter',
+        'module': 'MIXEDxk_Hofstadter',
         'function': 'charge_pumping_pi2'
     },
     'task_parameters': [],  # list of dict containing the **kwargs given to the `function`

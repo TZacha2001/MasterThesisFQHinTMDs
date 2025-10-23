@@ -47,6 +47,7 @@ locLoad = '/home/t30/all/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPSca
 t2 = -0.25
 chi_list = [256//2, 512//2]
 Lx = 2
+Ly = 3
 Ly_list = [3, 6]
 #N = Lx*Ly - 2
 N_list_Ly3 = [1, 2, 3]
@@ -56,6 +57,19 @@ N_list_Ly6 = [2, 4, 6]
 #phis = np.linspace(0, 1, 21)
 phis = np.array([0])
 
+K_N1 = np.array([0])
+N1 = np.array([1])
+K_N2 = np.array([2])
+K_N2_ = np.array([1])
+N2 = np.array([2])
+K_N3 = np.array([0])
+N3 = np.array([3])
+phis1 = [30]
+phis2 = [91]
+phis3 = [361]
+phis4 = [61]
+Chi_max = 256
+
 #Ks = np.arange(Ly)
 Ks_Ly3  = np.array([2])
 Ks_Ly6  = np.array([3])
@@ -63,26 +77,36 @@ Ks_Ly6  = np.array([3])
 #Vins = np.linspace(4, 10, 13)sca
 #Vs = np.arange(0.2, 0.8, 0.2)
 V = 0.5000
-for chi in chi_list:
-    for Ly in Ly_list:
-        if Ly == 3:
-            for N in N_list_Ly3:            
-                for phi in phis:
-                    for kk in Ks_Ly3:
-                        fname = f'data_xk_Hofst_pi_2_chi{chi:d}_Lx{Lx:d}_Ly{Ly:d}_V{V:.2f}_t-1.0_tp{t2:.2f}_K{kk:d}_N{N:d}.h5'
-                        params = {'loc': loc, 'locLoad': locLoad, 'fname':fname, 'target': 2}
-                        kwargs = {'params': params, 'OnlyEntspec': False}
-                        config['task_parameters'].append(copy.deepcopy(kwargs))
-                        ANALYZE_MONO.run_analyze(kwargs)
-        elif Ly == 6:
-            for N in N_list_Ly6:
-                for phi in phis:
-                    for kk in Ks_Ly6:
-                        fname = f'data_xk_Hofst_pi_2_chi{chi:d}_Lx{Lx:d}_Ly{Ly:d}_V{V:.2f}_t-1.0_tp{t2:.2f}_K{kk:d}_N{N:d}.h5'
-                        params = {'loc': loc, 'locLoad': locLoad, 'fname':fname, 'target': 2}
-                        kwargs = {'params': params, 'OnlyEntspec': False}
-                        config['task_parameters'].append(copy.deepcopy(kwargs))
-                        ANALYZE_MONO.run_analyze(kwargs)
+
+for Phis in phis4:
+    for N in N2:
+        for kk in K_N1:
+            fname = f'data_xk_Hofst_pi2_cpump_chi{Chi_max:d}_Lx{Lx:d}_Ly{Ly:d}_V{V:.2f}_t-1.0_tp{t2:.2f}_K{kk:d}_N{N:d}flux0.0-3.0-{Phis:d}.h5'
+            params = {'loc': loc, 'locLoad': locLoad, 'fname':fname, 'target': 2}
+            kwargs = {'params': params, 'OnlyEntspec': True}
+            config['task_parameters'].append(copy.deepcopy(kwargs))
+            ANALYZE_MONO.run_analyze(kwargs)
+
+#for chi in chi_list:
+#    for Ly in Ly_list:
+#        if Ly == 3:
+#            for N in N_list_Ly3:            
+#                for phi in phis:
+#                    for kk in Ks_Ly3:
+#                        fname = f'data_xk_Hofst_pi_2_chi{chi:d}_Lx{Lx:d}_Ly{Ly:d}_V{V:.2f}_t-1.0_tp{t2:.2f}_K{kk:d}_N{N:d}.h5'
+#                        params = {'loc': loc, 'locLoad': locLoad, 'fname':fname, 'target': 2}
+#                        kwargs = {'params': params, 'OnlyEntspec': False}
+#                        config['task_parameters'].append(copy.deepcopy(kwargs))
+#                        ANALYZE_MONO.run_analyze(kwargs)
+#        elif Ly == 6:
+#            for N in N_list_Ly6:
+#                for phi in phis:
+#                    for kk in Ks_Ly6:
+#                        fname = f'data_xk_Hofst_pi_2_chi{chi:d}_Lx{Lx:d}_Ly{Ly:d}_V{V:.2f}_t-1.0_tp{t2:.2f}_K{kk:d}_N{N:d}.h5'
+#                        params = {'loc': loc, 'locLoad': locLoad, 'fname':fname, 'target': 2}
+#                        kwargs = {'params': params, 'OnlyEntspec': False}
+#                        config['task_parameters'].append(copy.deepcopy(kwargs))
+#                        ANALYZE_MONO.run_analyze(kwargs)
                 
 
 

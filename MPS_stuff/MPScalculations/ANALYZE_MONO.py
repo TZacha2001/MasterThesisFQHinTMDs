@@ -80,9 +80,9 @@ def save_entspec(loc, filname, locLoad):
     data_dict = load_data_h5(locLoad+filname)
     print('loaded data')
     model_params = data_dict['model_params']
-    psi = data_dict['psi']
+    #psi = data_dict['psi']
     Lx, Ly = data_dict['model_params']['Lx'], data_dict['model_params']['Ly']
-    ent_spect = psi.entanglement_spectrum(by_charge=True)[0]
+    #ent_spect = psi.entanglement_spectrum(by_charge=True)[0]
 
     # save data
     Vin = model_params.get('Vin')
@@ -92,18 +92,29 @@ def save_entspec(loc, filname, locLoad):
     tp = model_params.get('t2')
     fluxes = model_params.get('phi_ext', (0, 0))
     chimax = str((data_dict['dmrg_params']['trunc_params'])['chi_max'])
-    Nsec, ktot, Ssec = model_params['Nsec'], model_params['ktot'], model_params['Ssec']
-
+    #Nsec, ktot, Ssec = model_params['Nsec'], model_params['ktot'], model_params['Ssec']
+    Nsec, ktot = model_params['Nsec'], model_params['ktot']
     energy = data_dict['info']
-
+    QLs_ = data_dict['QLs']
+    NN = len(energy)
+    #save_str = ('entspec_xk_Hofst_BL_pi_2'+'_chi'+ chimax +'_'
+    #            + f'Lx{Lx:d}_Ly{Ly:d}_' 
+    #            + f'V{Vin:.2f}_Vo{Vout:.2f}_U{U:.2f}_t{t:.1f}_tp{tp:.2f}'
+    #            + f'_K{ktot:d}_N{Nsec:d}_S{Ssec:d}' 
+    #            + f'fluxes{fluxes[0]:.2f}_{fluxes[1]:.2f}'
+    #            + '.h5')
+    
+    print("fluxes type=", type(fluxes))
     save_str = ('entspec_xk_Hofst_BL_pi_2'+'_chi'+ chimax +'_'
                 + f'Lx{Lx:d}_Ly{Ly:d}_' 
-                + f'V{Vin:.2f}_Vo{Vout:.2f}_U{U:.2f}_t{t:.1f}_tp{tp:.2f}'
-                + f'_K{ktot:d}_N{Nsec:d}_S{Ssec:d}' 
-                + f'fluxes{fluxes[0]:.2f}_{fluxes[1]:.2f}'
+                + f't{t:.1f}_tp{tp:.2f}'
+                + f'_K{ktot:d}_N{Nsec:d}' 
+                + f'fluxes0.0-{fluxes:.2f}'
+                + f'-{NN}'
                 + '.h5')
-    
-    savepackage = {'E': energy, 'entspec': ent_spect}
+
+    savepackage = {'E': energy, 'QLs_': QLs_}
+    #savepackage = {'E': energy, 'entspec': ent_spect}
 
     with h5py.File(loc+save_str, 'w') as f:
         hdf5_io.save_to_hdf5(f, savepackage)
@@ -111,7 +122,7 @@ def save_entspec(loc, filname, locLoad):
 
 def run_analyze(kwargs):
     params = kwargs.get('params')
-    OnlyEntspec = kwargs.get('OnlyEntspec', False)
+    OnlyEntspec = kwargs.get('OnlyEntspec', True)
 
     loc = params.get('loc')
     locLoad = params.get('locLoad')
