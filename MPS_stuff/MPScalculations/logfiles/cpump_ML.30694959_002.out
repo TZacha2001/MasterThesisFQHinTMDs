@@ -1992,3 +1992,3168 @@ chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
 INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
 INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
 INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 30
+energy=-0.7105377839299649, max S=3.1420307028569741, age=1116, norm_err=2.2e-09
+Current memory usage 695.0MB, wall time: 132.4s
+Delta E = -5.2115e-10, Delta S = -6.8336e-07 (per sweep)
+max trunc_err = 6.2682e-06, max E_trunc = 7.6178e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=2.17e-09, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 30 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(1.6)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7105523888361276, max S=3.1259593008174269, age=396, norm_err=1.1e-09
+Current memory usage 695.0MB, wall time: 166.0s
+Delta E = nan, Delta S = 5.2421e-05 (per sweep)
+max trunc_err = 6.1564e-06, max E_trunc = 7.4611e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7105525488806848, max S=3.1259579024392763, age=756, norm_err=1.5e-09
+Current memory usage 695.0MB, wall time: 133.7s
+Delta E = -1.6004e-08, Delta S = -1.3817e-06 (per sweep)
+max trunc_err = 6.2308e-06, max E_trunc = 7.5585e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 30
+energy=-0.7105525482136130, max S=3.1259529346591961, age=1116, norm_err=1.5e-09
+Current memory usage 695.0MB, wall time: 133.7s
+Delta E = 6.6707e-11, Delta S = -6.6120e-07 (per sweep)
+max trunc_err = 6.2331e-06, max E_trunc = 7.5635e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=1.49e-09, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 30 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(1.6500000000000001)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7105791180413021, max S=3.1081464759956487, age=396, norm_err=2.7e-10
+Current memory usage 695.0MB, wall time: 166.2s
+Delta E = nan, Delta S = 7.8756e-05 (per sweep)
+max trunc_err = 6.0694e-06, max E_trunc = 7.3277e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7105791815478568, max S=3.1081480565008466, age=756, norm_err=6.6e-10
+Current memory usage 695.0MB, wall time: 134.0s
+Delta E = -6.3507e-09, Delta S = -9.8140e-07 (per sweep)
+max trunc_err = 6.0438e-06, max E_trunc = 7.3004e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=6.60e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(1.7000000000000002)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7106169099385724, max S=3.0885432657959244, age=396, norm_err=3.3e-10
+Current memory usage 695.0MB, wall time: 165.4s
+Delta E = nan, Delta S = 1.1463e-04 (per sweep)
+max trunc_err = 5.8273e-06, max E_trunc = 7.0009e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7106169683344490, max S=3.0885915620313642, age=756, norm_err=3.5e-10
+Current memory usage 695.0MB, wall time: 133.0s
+Delta E = -5.8396e-09, Delta S = 4.1580e-06 (per sweep)
+max trunc_err = 5.8120e-06, max E_trunc = 6.9871e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=3.52e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(1.75)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7106639743245893, max S=3.0667840023070294, age=396, norm_err=1.2e-09
+Current memory usage 695.0MB, wall time: 166.6s
+Delta E = nan, Delta S = 9.8906e-05 (per sweep)
+max trunc_err = 5.8013e-06, max E_trunc = 6.9754e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7106639873305483, max S=3.0668147333932216, age=756, norm_err=2.2e-10
+Current memory usage 695.0MB, wall time: 134.0s
+Delta E = -1.3006e-09, Delta S = 2.2838e-06 (per sweep)
+max trunc_err = 5.7867e-06, max E_trunc = 6.9563e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=2.23e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(1.8)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7107185775763772, max S=3.0423882275522320, age=396, norm_err=6.9e-10
+Current memory usage 695.0MB, wall time: 166.7s
+Delta E = nan, Delta S = 3.3429e-05 (per sweep)
+max trunc_err = 5.6642e-06, max E_trunc = 6.8529e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7107185807910810, max S=3.0424181920273319, age=756, norm_err=1.7e-10
+Current memory usage 695.0MB, wall time: 134.2s
+Delta E = -3.2147e-10, Delta S = 3.0317e-06 (per sweep)
+max trunc_err = 5.6605e-06, max E_trunc = 6.8480e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=1.70e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(1.85)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7107784796560447, max S=3.0153959275677620, age=396, norm_err=5.7e-10
+Current memory usage 695.0MB, wall time: 167.5s
+Delta E = nan, Delta S = -2.5821e-05 (per sweep)
+max trunc_err = 5.6291e-06, max E_trunc = 6.8307e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7107784954238762, max S=3.0154270144218964, age=756, norm_err=5.1e-11
+Current memory usage 695.0MB, wall time: 134.6s
+Delta E = -1.5768e-09, Delta S = 2.9130e-06 (per sweep)
+max trunc_err = 5.6359e-06, max E_trunc = 6.8411e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(1.9000000000000001)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7108407994995692, max S=2.9855791249295685, age=396, norm_err=4.7e-10
+Current memory usage 695.0MB, wall time: 168.8s
+Delta E = nan, Delta S = -1.2577e-04 (per sweep)
+max trunc_err = 5.4776e-06, max E_trunc = 6.6658e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7108407923574541, max S=2.9856133746607032, age=756, norm_err=2.5e-10
+Current memory usage 695.0MB, wall time: 135.3s
+Delta E = 7.1421e-10, Delta S = 3.3374e-06 (per sweep)
+max trunc_err = 5.4702e-06, max E_trunc = 6.6589e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=2.49e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(1.9500000000000002)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7109029270127252, max S=2.9525212062202648, age=396, norm_err=6.7e-10
+Current memory usage 695.0MB, wall time: 169.1s
+Delta E = nan, Delta S = -2.6933e-04 (per sweep)
+max trunc_err = 5.2694e-06, max E_trunc = 6.4430e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7109029863744022, max S=2.9525728523311887, age=756, norm_err=1.5e-10
+Current memory usage 695.0MB, wall time: 136.7s
+Delta E = -5.9362e-09, Delta S = 5.0264e-06 (per sweep)
+max trunc_err = 5.2435e-06, max E_trunc = 6.3992e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=1.53e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.0)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7109631385125184, max S=2.9163912818434001, age=396, norm_err=3.1e-10
+Current memory usage 695.0MB, wall time: 168.4s
+Delta E = nan, Delta S = -4.0749e-04 (per sweep)
+max trunc_err = 5.4331e-06, max E_trunc = 6.6801e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7109632075483887, max S=2.9164596998740162, age=756, norm_err=1.5e-10
+Current memory usage 695.0MB, wall time: 136.1s
+Delta E = -6.9036e-09, Delta S = 7.0128e-06 (per sweep)
+max trunc_err = 5.4232e-06, max E_trunc = 6.6682e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=1.53e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.0500000000000003)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7110193150836087, max S=2.8773373599123788, age=396, norm_err=4.7e-10
+Current memory usage 695.0MB, wall time: 168.8s
+Delta E = nan, Delta S = -5.3433e-04 (per sweep)
+max trunc_err = 5.6151e-06, max E_trunc = 6.8870e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7110193197955255, max S=2.8773615648304767, age=756, norm_err=2.0e-10
+Current memory usage 695.0MB, wall time: 137.2s
+Delta E = -4.7119e-10, Delta S = 2.5182e-06 (per sweep)
+max trunc_err = 5.6086e-06, max E_trunc = 6.8774e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=2.02e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.1)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7110707078548373, max S=2.8618948233156627, age=396, norm_err=3.2e-10
+Current memory usage 695.0MB, wall time: 168.8s
+Delta E = nan, Delta S = -6.5285e-04 (per sweep)
+max trunc_err = 5.7187e-06, max E_trunc = 6.9949e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7110707896360632, max S=2.8619621860070659, age=756, norm_err=2.7e-10
+Current memory usage 695.0MB, wall time: 136.3s
+Delta E = -8.1781e-09, Delta S = 9.5782e-06 (per sweep)
+max trunc_err = 5.6860e-06, max E_trunc = 6.9480e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=2.71e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.15)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7111165275582181, max S=2.8823691435441807, age=396, norm_err=2.3e-10
+Current memory usage 695.0MB, wall time: 168.3s
+Delta E = nan, Delta S = -7.1024e-04 (per sweep)
+max trunc_err = 5.7435e-06, max E_trunc = 7.0263e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7111165302009255, max S=2.8823683122189241, age=756, norm_err=4.0e-10
+Current memory usage 695.0MB, wall time: 134.6s
+Delta E = -2.6427e-10, Delta S = 3.7807e-07 (per sweep)
+max trunc_err = 5.7353e-06, max E_trunc = 7.0158e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=3.96e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.2)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7111561014744060, max S=2.9015340330407842, age=396, norm_err=2.6e-10
+Current memory usage 695.0MB, wall time: 167.5s
+Delta E = nan, Delta S = -7.4745e-04 (per sweep)
+max trunc_err = 5.8266e-06, max E_trunc = 7.2240e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7111561252990839, max S=2.9015369305339740, age=756, norm_err=2.0e-10
+Current memory usage 695.0MB, wall time: 134.5s
+Delta E = -2.3825e-09, Delta S = 1.0126e-06 (per sweep)
+max trunc_err = 5.8314e-06, max E_trunc = 7.2306e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=1.98e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.25)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7111890993527842, max S=2.9200746291287847, age=396, norm_err=3.4e-10
+Current memory usage 695.0MB, wall time: 167.9s
+Delta E = nan, Delta S = -7.3877e-04 (per sweep)
+max trunc_err = 5.8673e-06, max E_trunc = 7.3188e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7111891516157982, max S=2.9200935404926955, age=756, norm_err=5.3e-10
+Current memory usage 695.0MB, wall time: 134.7s
+Delta E = -5.2263e-09, Delta S = 2.0316e-06 (per sweep)
+max trunc_err = 5.8554e-06, max E_trunc = 7.2933e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=5.32e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.3000000000000003)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7112159080840877, max S=2.9384449726480790, age=396, norm_err=3.1e-10
+Current memory usage 695.0MB, wall time: 167.4s
+Delta E = nan, Delta S = -6.6765e-04 (per sweep)
+max trunc_err = 6.0831e-06, max E_trunc = 7.6269e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7112159639933822, max S=2.9384991014673947, age=756, norm_err=2.1e-10
+Current memory usage 695.0MB, wall time: 134.6s
+Delta E = -5.5909e-09, Delta S = 6.0972e-06 (per sweep)
+max trunc_err = 6.0286e-06, max E_trunc = 7.5569e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=2.10e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.35)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7112365949164973, max S=2.9569762752592648, age=396, norm_err=2.0e-10
+Current memory usage 695.0MB, wall time: 166.9s
+Delta E = nan, Delta S = -5.5376e-04 (per sweep)
+max trunc_err = 6.0005e-06, max E_trunc = 7.5440e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7112365943779887, max S=2.9569820838229459, age=756, norm_err=1.9e-10
+Current memory usage 695.0MB, wall time: 134.4s
+Delta E = 5.3851e-11, Delta S = 8.5481e-07 (per sweep)
+max trunc_err = 5.9918e-06, max E_trunc = 7.5330e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=1.94e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.4000000000000004)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7112521000083234, max S=2.9761459223257178, age=396, norm_err=2.5e-10
+Current memory usage 695.0MB, wall time: 165.7s
+Delta E = nan, Delta S = -3.9211e-04 (per sweep)
+max trunc_err = 6.1687e-06, max E_trunc = 7.7585e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7112521161272648, max S=2.9761628444860491, age=756, norm_err=2.6e-10
+Current memory usage 695.0MB, wall time: 133.7s
+Delta E = -1.6119e-09, Delta S = 1.9433e-06 (per sweep)
+max trunc_err = 6.1499e-06, max E_trunc = 7.7351e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=2.63e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.45)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7112608524408680, max S=2.9955379213982258, age=396, norm_err=2.5e-10
+Current memory usage 695.0MB, wall time: 165.6s
+Delta E = nan, Delta S = -2.5515e-04 (per sweep)
+max trunc_err = 6.2417e-06, max E_trunc = 7.8934e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7112608604221530, max S=2.9955600372872402, age=756, norm_err=2.7e-10
+Current memory usage 695.0MB, wall time: 133.3s
+Delta E = -7.9813e-10, Delta S = 2.7764e-06 (per sweep)
+max trunc_err = 6.2283e-06, max E_trunc = 7.8796e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=2.70e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.5)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7112633859770104, max S=3.0153912199704465, age=396, norm_err=2.7e-10
+Current memory usage 695.0MB, wall time: 165.8s
+Delta E = nan, Delta S = -8.4956e-05 (per sweep)
+max trunc_err = 6.1553e-06, max E_trunc = 7.8048e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7112633997686544, max S=3.0154042072315690, age=756, norm_err=2.1e-10
+Current memory usage 695.0MB, wall time: 134.0s
+Delta E = -1.3792e-09, Delta S = 2.0604e-06 (per sweep)
+max trunc_err = 6.1464e-06, max E_trunc = 7.7955e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=2.14e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.5500000000000003)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7112595095484741, max S=3.0357763757042622, age=396, norm_err=2.9e-10
+Current memory usage 695.0MB, wall time: 167.3s
+Delta E = nan, Delta S = 1.0284e-04 (per sweep)
+max trunc_err = 6.3386e-06, max E_trunc = 8.0336e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7112595151962561, max S=3.0357840948651180, age=756, norm_err=2.1e-10
+Current memory usage 695.0MB, wall time: 134.2s
+Delta E = -5.6478e-10, Delta S = 1.1069e-06 (per sweep)
+max trunc_err = 6.3371e-06, max E_trunc = 8.0337e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=2.08e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.6)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7112502211369099, max S=3.0565828368733956, age=396, norm_err=2.2e-10
+Current memory usage 695.0MB, wall time: 167.0s
+Delta E = nan, Delta S = 2.9854e-04 (per sweep)
+max trunc_err = 6.5107e-06, max E_trunc = 8.2261e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7112502269660013, max S=3.0566101101025955, age=756, norm_err=1.9e-10
+Current memory usage 695.0MB, wall time: 135.1s
+Delta E = -5.8291e-10, Delta S = 3.3028e-06 (per sweep)
+max trunc_err = 6.4959e-06, max E_trunc = 8.2065e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=1.94e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.6500000000000004)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7112345752907956, max S=3.0772350216580993, age=396, norm_err=2.7e-10
+Current memory usage 695.0MB, wall time: 167.9s
+Delta E = nan, Delta S = 4.4542e-04 (per sweep)
+max trunc_err = 6.5120e-06, max E_trunc = 8.1721e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7112345754460421, max S=3.0772423036487502, age=756, norm_err=2.3e-10
+Current memory usage 695.0MB, wall time: 135.8s
+Delta E = -1.5525e-11, Delta S = 1.4477e-06 (per sweep)
+max trunc_err = 6.5226e-06, max E_trunc = 8.1864e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=2.28e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.7)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7112125175159605, max S=3.0973066029591334, age=396, norm_err=3.0e-10
+Current memory usage 695.0MB, wall time: 165.8s
+Delta E = nan, Delta S = 5.7732e-04 (per sweep)
+max trunc_err = 6.6171e-06, max E_trunc = 8.3106e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7112125171688651, max S=3.0973189957152365, age=756, norm_err=3.1e-10
+Current memory usage 695.0MB, wall time: 134.3s
+Delta E = 3.4710e-11, Delta S = 1.5614e-06 (per sweep)
+max trunc_err = 6.6208e-06, max E_trunc = 8.3152e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=3.13e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.75)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7111846162367073, max S=3.1167799967281313, age=396, norm_err=3.5e-10
+Current memory usage 695.0MB, wall time: 167.2s
+Delta E = nan, Delta S = 7.1013e-04 (per sweep)
+max trunc_err = 6.5899e-06, max E_trunc = 8.3192e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7111846277606541, max S=3.1168168435123431, age=756, norm_err=5.1e-10
+Current memory usage 695.0MB, wall time: 135.9s
+Delta E = -1.1524e-09, Delta S = 4.9200e-06 (per sweep)
+max trunc_err = 6.5868e-06, max E_trunc = 8.3135e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=5.08e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.8000000000000003)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7111501578724315, max S=3.1344669275372179, age=396, norm_err=4.9e-10
+Current memory usage 695.0MB, wall time: 168.6s
+Delta E = nan, Delta S = 7.2833e-04 (per sweep)
+max trunc_err = 6.4695e-06, max E_trunc = 8.1729e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7111501930847623, max S=3.1344640983696848, age=756, norm_err=5.2e-10
+Current memory usage 695.0MB, wall time: 136.7s
+Delta E = -3.5212e-09, Delta S = -2.6536e-07 (per sweep)
+max trunc_err = 6.4247e-06, max E_trunc = 8.0908e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=5.20e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.85)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7111096173090014, max S=3.1499510978047027, age=396, norm_err=5.3e-10
+Current memory usage 695.0MB, wall time: 168.9s
+Delta E = nan, Delta S = 7.3041e-04 (per sweep)
+max trunc_err = 6.2156e-06, max E_trunc = 7.8016e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7111096203930032, max S=3.1499656209765892, age=756, norm_err=5.9e-10
+Current memory usage 695.0MB, wall time: 136.9s
+Delta E = -3.0840e-10, Delta S = 2.0580e-06 (per sweep)
+max trunc_err = 6.2147e-06, max E_trunc = 7.7991e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=5.90e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.9000000000000004)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7110622780178110, max S=3.1629074168072044, age=396, norm_err=5.8e-10
+Current memory usage 695.0MB, wall time: 169.2s
+Delta E = nan, Delta S = 7.0176e-04 (per sweep)
+max trunc_err = 6.1607e-06, max E_trunc = 7.8555e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7110622754017299, max S=3.1629236853749059, age=756, norm_err=5.9e-10
+Current memory usage 695.0MB, wall time: 137.6s
+Delta E = 2.6161e-10, Delta S = 1.9347e-06 (per sweep)
+max trunc_err = 6.1597e-06, max E_trunc = 7.8544e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=5.89e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(2.95)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7110091176417797, max S=3.1992836740841217, age=396, norm_err=6.9e-10
+Current memory usage 695.0MB, wall time: 168.8s
+Delta E = nan, Delta S = 6.1483e-04 (per sweep)
+max trunc_err = 6.4917e-06, max E_trunc = 8.2755e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7110091315871424, max S=3.1992805562029409, age=756, norm_err=6.9e-10
+Current memory usage 695.0MB, wall time: 136.4s
+Delta E = -1.3945e-09, Delta S = -1.8914e-07 (per sweep)
+max trunc_err = 6.4797e-06, max E_trunc = 8.2622e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=6.88e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'explicit_plus_hc'=False
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'xy_lattice'='Square'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'ring_order'=None
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'conserve_k'=True
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(3.0)
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'sort_mpo_legs'=False
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: reading 'active_sites'=2
+INFO:tenpy.tools.params:DMRG: reading 'diag_method'='default'
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<5 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'max_N_sites_per_ring'=18
+INFO:tenpy.tools.params:DMRG: reading 'combine'=False
+INFO:tenpy.tools.params:DMRG: subconfig 'lanczos_params'=Config(<9 options>, 'lanczos_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'=None
+INFO:tenpy.tools.params:DMRG: reading 'start_env'=1
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:DMRG: reading 'N_sweeps_check'=10
+INFO:tenpy.tools.params:DMRG: subconfig 'mixer_params'=Config(<3 options>, 'mixer_params')
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=None
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=100
+INFO:tenpy.tools.params:DMRG: reading 'max_hours'=8760
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_to_trunc'=0.05
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_min'=5.0000000000000004e-30
+INFO:tenpy.tools.params:DMRG: reading 'P_tol_max'=0.0001
+INFO:tenpy.tools.params:DMRG: reading 'E_tol_to_trunc'=None
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.tools.params:DMRG: reading 'max_N_for_ED'=400
+INFO:tenpy.tools.params:DMRG: reading 'update_env'=5
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.7109514328932510, max S=3.2336732357908948, age=396, norm_err=6.7e-10
+Current memory usage 695.0MB, wall time: 168.4s
+Delta E = nan, Delta S = 5.0602e-04 (per sweep)
+max trunc_err = 6.6370e-06, max E_trunc = 8.3746e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=-0.7109514447027484, max S=3.2336939917859606, age=756, norm_err=6.6e-10
+Current memory usage 695.0MB, wall time: 136.7s
+Delta E = -1.1809e-09, Delta S = 2.4850e-06 (per sweep)
+max trunc_err = 6.6336e-06, max E_trunc = 8.3677e-05
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.tools.params:DMRG: reading 'max_E_err'=1e-08
+INFO:tenpy.tools.params:DMRG: reading 'max_S_err'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol'=1e-05
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_final'=1e-10
+INFO:tenpy.tools.params:DMRG: reading 'norm_tol_iter'=5
+WARNING:tenpy.algorithms.dmrg:final DMRG state not in canonical form up to norm_tol_final=1.00e-10: norm_err=6.64e-10, calling psi.canonical_form()
+INFO:tenpy.algorithms.dmrg:TwoSiteDMRGEngine finished after 20 sweeps, max chi=512
+INFO:tenpy.tools.params:DMRG: reading 'max_trunc_err'=0.0001
+started simualtion
+phi_ext = 0.00
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.0)}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+initial state [0 0 0 0 0 1 1 0 0 0 1 1]
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7109533027330693
+max bond dimension= 512
+[-0.68006327  2.75546862]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.05), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7108923577347165
+max bond dimension= 512
+[-0.64569285  2.74651455]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.1), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7108295405479623
+max bond dimension= 512
+[-0.61115271  2.73614783]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.15000000000000002), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7107667850292406
+max bond dimension= 512
+[-0.57642504  2.72470942]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.2), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.710706339091999
+max bond dimension= 512
+[-0.54153838  2.71207259]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.25), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7106508417744711
+max bond dimension= 512
+[-0.50659603  2.69846024]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.30000000000000004), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7106035057484235
+max bond dimension= 512
+[-0.47157906  2.68407589]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.35000000000000003), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.710565388123977
+max bond dimension= 512
+[-0.4366976   2.66892498]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.4), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7105423661077074
+max bond dimension= 512
+[-0.40141407  2.65325441]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.45), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7105282282697184
+max bond dimension= 512
+[-0.36683117  2.63779475]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.5), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7105260811447351
+max bond dimension= 512
+[-0.33244358  2.62228899]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.55), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7105346207998527
+max bond dimension= 512
+[-0.29836662  2.60759766]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.6000000000000001), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7105532460694851
+max bond dimension= 512
+[-0.264511    2.59397394]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.65), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7105793185385304
+max bond dimension= 512
+[-0.23088444  2.5814244 ]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.7000000000000001), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7106101634918124
+max bond dimension= 512
+[-0.19751059  2.57030429]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.75), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.710642348489254
+max bond dimension= 512
+[-0.16431691  2.56042167]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.8), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7106733610845689
+max bond dimension= 512
+[-0.13131421  2.55266456]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.8500000000000001), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7107021823212231
+max bond dimension= 512
+[-0.09846944  2.5480571 ]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.9), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.710724255639685
+max bond dimension= 512
+[-0.06563601  2.54470449]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(0.9500000000000001), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7107383061057391
+max bond dimension= 512
+[-0.03286983  2.54387425]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.0), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7107434285176074
+max bond dimension= 512
+[-1.65464437e-04  2.54531153e+00]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.05), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7107391666497307
+max bond dimension= 512
+[0.03252912 2.54838346]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.1), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7107263445321763
+max bond dimension= 512
+[0.0653191  2.55543479]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.1500000000000001), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.710706250114446
+max bond dimension= 512
+[0.09819172 2.56358641]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.2000000000000002), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7106793875869784
+max bond dimension= 512
+[0.13111794 2.57609465]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.25), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.710648473891491
+max bond dimension= 512
+[0.16416008 2.59187773]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.3), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7106165990730536
+max bond dimension= 512
+[0.1973912 2.6107096]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.35), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.710586645355562
+max bond dimension= 512
+[0.23076933 2.63236948]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.4000000000000001), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7105610698414466
+max bond dimension= 512
+[0.26437422 2.65755308]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.4500000000000002), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7105435355778175
+max bond dimension= 512
+[0.29824532 2.68575669]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.5), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7105350981336945
+max bond dimension= 512
+[0.33239754 2.71618591]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.55), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7105377839299649
+max bond dimension= 512
+[0.36684584 2.74968677]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.6), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.710552548213613
+max bond dimension= 512
+[0.40151506 2.78563889]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.6500000000000001), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7105791815478568
+max bond dimension= 512
+[0.43639433 2.82358624]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.7000000000000002), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.710616968334449
+max bond dimension= 512
+[0.47132807 2.86271215]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.75), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7106639873305483
+max bond dimension= 512
+[0.50629087 2.90334029]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.8), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.710718580791081
+max bond dimension= 512
+[0.54124341 2.94496138]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.85), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7107784954238762
+max bond dimension= 512
+[0.57617648 2.98741407]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.9000000000000001), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7108407923574541
+max bond dimension= 512
+[0.61093162 3.02992664]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(1.9500000000000002), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7109029863744022
+max bond dimension= 512
+[0.6454053  3.07223049]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.0), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7109632075483887
+max bond dimension= 512
+[0.67957464 3.11426033]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.0500000000000003), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7110193197955255
+max bond dimension= 512
+[0.71331769 3.15529368]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.1), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7110707896360632
+max bond dimension= 512
+[0.74670343 3.19523399]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.15), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7111165302009255
+max bond dimension= 512
+[0.7795811  3.23345062]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.2), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7111561252990839
+max bond dimension= 512
+[0.81211684 3.27001558]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.25), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7111891516157982
+max bond dimension= 512
+[0.84409058 3.30401973]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.3000000000000003), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7112159639933822
+max bond dimension= 512
+[0.87568076 3.33539991]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.35), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7112365943779887
+max bond dimension= 512
+[0.90692895 3.36377953]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.4000000000000004), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7112521161272648
+max bond dimension= 512
+[0.93796626 3.38878153]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.45), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.711260860422153
+max bond dimension= 512
+[0.96878891 3.41048839]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.5), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7112633997686544
+max bond dimension= 512
+[0.99948711 3.42882811]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.5500000000000003), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7112595151962561
+max bond dimension= 512
+[1.03019301 3.44368057]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.6), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7112502269660013
+max bond dimension= 512
+[1.06102624 3.45508125]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.6500000000000004), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7112345754460421
+max bond dimension= 512
+[1.09196793 3.46344661]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.7), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7112125171688651
+max bond dimension= 512
+[1.12317469 3.46905836]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.75), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.711184627760654
+max bond dimension= 512
+[1.15485538 3.47188147]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.8000000000000003), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7111501930847623
+max bond dimension= 512
+[1.18682295 3.47261121]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.85), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7111096203930032
+max bond dimension= 512
+[1.21922189 3.47145176]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.9000000000000004), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.71106227540173
+max bond dimension= 512
+[1.25193222 3.46865127]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(2.95), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7110091315871424
+max bond dimension= 512
+[1.28507022 3.46432761]
+started to simulate
+{'bc_MPS': 'infinite', 'bc': ['periodic', 'periodic'], 'V1': 0.6, 't': -1, 't2': -0.25, 'Lx': 2, 'Ly': 6, 'chi_max': 512, 'Nsec': 4, 'ktot': np.int64(2), 'saveAll': False, 'Delta': 0, 'phi_ext': np.float64(3.0), 'explicit_plus_hc': False, 'N_rings': 2, 'xy_lattice': 'Square', 'ring_order': None, 'conserve_k': True, 'sort_mpo_legs': False}
+4
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+[1.57079633 3.14159265 0.        ] 0
+[-1.57079633  3.14159265  3.14159265] 1
+created model
+loaded psi
+momentum of initial state: 2 , particle number of initial state: 4
+starting drmg run
+E= -0.7109514447027484
+max bond dimension= 512
+[1.318739   3.45878089]
+finished at Thu 23 Oct 23:59:14 CEST 2025

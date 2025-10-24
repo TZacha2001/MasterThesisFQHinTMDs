@@ -28,28 +28,29 @@ config = {
 
 Lx = 2
 Ly = 6
-N = 2 * Lx * Ly // 6
+N_list = [1* Lx * Ly // 6, 3* Lx * Ly // 6]
 V = 0.6
 fluxes = np.linspace(0, 3, 61)
 
 #for Ktot in range(Ly):#np.array([0, 1, 2, 3, 4, 5]): 
-for Ktot in np.array([0, 2, 4]): 
-    kwargs = {}
-    kwargs['V1'] = V
-    kwargs['t'] = -1
-    kwargs['t2'] = -0.25
-    kwargs['Lx'] = Lx
-    kwargs['Ly'] = Ly
-    kwargs['chi_max'] = 512
-    kwargs['Nsec'] = N # fix total particle number
-    kwargs['ktot'] = Ktot # fix total momentum sector
-    kwargs['phi_exts'] = fluxes
-    kwargs['saveAll'] = False
+for N in N_list:
+    for Ktot in np.array([0, 2, 4]): 
+        kwargs = {}
+        kwargs['V1'] = V
+        kwargs['t'] = -1
+        kwargs['t2'] = -0.25
+        kwargs['Lx'] = Lx
+        kwargs['Ly'] = Ly
+        kwargs['chi_max'] = 512
+        kwargs['Nsec'] = N # fix total particle number
+        kwargs['ktot'] = Ktot # fix total momentum sector
+        kwargs['phi_exts'] = fluxes
+        kwargs['saveAll'] = False
 
-    kwargs['Delta'] = 0
+        kwargs['Delta'] = 0
 
 
-    config['task_parameters'].append(copy.deepcopy(kwargs))
+        config['task_parameters'].append(copy.deepcopy(kwargs))
 
 
 

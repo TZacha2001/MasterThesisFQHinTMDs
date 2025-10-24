@@ -1,0 +1,222 @@
+Running task 6 specified in logfiles/cpump_ML_00.config.pkl on euler2 at Fri 24 Oct 12:08:25 CEST 2025 with 6 threads
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Lx'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: setting 'N_rings'=2
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'Ly'=6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'bc_MPS'='infinite'
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't'=-1
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 't2'=-0.25
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'V1'=0.6
+INFO:tenpy.tools.params:MixedHofstadterLandauGauge_Pi_2: reading 'phi_ext'=np.float64(0.0)
+/home/t30/kna/ge54yin/Documents/MasterThesisFQHinTMDs/MPS_stuff/MPScalculations/.venv/lib/python3.12/site-packages/tenpy/tools/params.py:232: UserWarning: unused options for config MixedHofstadterLandauGauge_Pi_2:
+['Delta', 'N_rings', 'Nsec', 'bc', 'chi_max', 'ktot', 'saveAll']
+  warnings.warn(msg.format(keys=sorted(unused), name=self.name))
+INFO:tenpy.tools.params:DMRG: subconfig 'trunc_params'=Config(<1 options>, 'trunc_params')
+INFO:tenpy.tools.params:DMRG: reading 'chi_list'={0: 512}
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.tools.params:trunc_params: reading 'chi_max'=512
+INFO:tenpy.tools.params:DMRG: reading 'mixer'=True
+INFO:tenpy.algorithms.mps_common:activate DensityMatrixMixer with initial amplitude 1e-05
+INFO:tenpy.tools.params:DMRG: reading 'max_sweeps'=250
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:Setting chi_max=512
+INFO:tenpy.algorithms.mps_common:activate DensityMatrixMixer with initial amplitude 1e-05
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 10
+energy=-0.0341163129995519, max S=2.8246214191529786, age=396, norm_err=5.2e-03
+Current memory usage 463.8MB, wall time: 670.6s
+Delta E = nan, Delta S = 2.3041e-01 (per sweep)
+max trunc_err = 8.1586e-07, max E_trunc = 6.3527e-06
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 20
+energy=0.0341326988295781, max S=3.8429105357543802, age=756, norm_err=9.3e-04
+Current memory usage 463.8MB, wall time: 580.2s
+Delta E = 6.8249e-03, Delta S = 8.1200e-02 (per sweep)
+max trunc_err = 1.6978e-07, max E_trunc = 1.5908e-06
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 30
+energy=0.0899777332842717, max S=2.9131776204556168, age=1116, norm_err=3.3e-07
+Current memory usage 463.8MB, wall time: 640.1s
+Delta E = 5.5845e-03, Delta S = -9.6233e-02 (per sweep)
+max trunc_err = 1.8663e-07, max E_trunc = 1.8323e-06
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 40
+energy=-0.1108839598365610, max S=3.7086670766403653, age=1476, norm_err=1.1e-04
+Current memory usage 463.8MB, wall time: 623.9s
+Delta E = -2.0086e-02, Delta S = 7.6277e-02 (per sweep)
+max trunc_err = 2.5813e-07, max E_trunc = 2.5231e-06
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:Disable mixer after 50 sweeps, final amplitude 3.051757812499999e-10.
+INFO:tenpy.algorithms.mps_common:deactivate DensityMatrixMixer with final amplitude 3.051757812499999e-10
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 50
+energy=-0.0941130815225980, max S=3.8684093246702433, age=1836, norm_err=2.7e-03
+Current memory usage 463.8MB, wall time: 578.9s
+Delta E = 1.6771e-03, Delta S = 1.6891e-02 (per sweep)
+max trunc_err = 1.8943e-07, max E_trunc = 1.8426e-06
+chi: [512, 511, 512, 511, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 60
+energy=-0.1431086363087767, max S=3.5783682049124073, age=2196, norm_err=3.0e-05
+Current memory usage 463.8MB, wall time: 574.4s
+Delta E = -4.8996e-03, Delta S = -2.0715e-02 (per sweep)
+max trunc_err = 1.1768e-07, max E_trunc = 2.2980e-06
+chi: [512, 511, 512, 511, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 70
+energy=-0.0929538420224674, max S=3.8693129406520503, age=2556, norm_err=2.9e-02
+Current memory usage 463.8MB, wall time: 571.0s
+Delta E = 5.0155e-03, Delta S = 2.6182e-02 (per sweep)
+max trunc_err = 9.5733e-08, max E_trunc = 1.8616e-06
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 80
+energy=-0.0245994973199212, max S=4.3845730580838573, age=2916, norm_err=2.7e-04
+Current memory usage 463.8MB, wall time: 637.3s
+Delta E = 6.8354e-03, Delta S = 5.4699e-02 (per sweep)
+max trunc_err = 1.8798e-06, max E_trunc = 6.5121e-06
+chi: [512, 511, 512, 511, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 90
+energy=-0.0127479768129509, max S=3.5111926095005996, age=3276, norm_err=8.7e-05
+Current memory usage 463.8MB, wall time: 563.3s
+Delta E = 1.1852e-03, Delta S = -8.0257e-02 (per sweep)
+max trunc_err = 2.8063e-07, max E_trunc = 5.3019e-06
+chi: [512, 512, 512, 511, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 100
+energy=-0.1913191422547129, max S=3.3141459959931172, age=3636, norm_err=8.5e-05
+Current memory usage 463.8MB, wall time: 554.1s
+Delta E = -1.7857e-02, Delta S = -4.1428e-02 (per sweep)
+max trunc_err = 7.0997e-08, max E_trunc = 1.3506e-06
+chi: [512, 510, 512, 510, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 110
+energy=-0.0461468713692170, max S=3.3670687865901736, age=3996, norm_err=2.4e-05
+Current memory usage 463.8MB, wall time: 581.8s
+Delta E = 1.4517e-02, Delta S = 2.1740e-02 (per sweep)
+max trunc_err = 2.9562e-07, max E_trunc = 5.6343e-06
+chi: [512, 512, 512, 511, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 120
+energy=-0.1641659999726623, max S=3.4629527461859184, age=4356, norm_err=3.1e-05
+Current memory usage 463.8MB, wall time: 544.9s
+Delta E = -1.1802e-02, Delta S = -5.2312e-03 (per sweep)
+max trunc_err = 6.5539e-08, max E_trunc = 1.2702e-06
+chi: [512, 511, 512, 510, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 130
+energy=-0.0345188653830822, max S=2.8462788577429250, age=4716, norm_err=7.7e-06
+Current memory usage 463.8MB, wall time: 564.7s
+Delta E = 1.2965e-02, Delta S = -3.5265e-02 (per sweep)
+max trunc_err = 9.6167e-08, max E_trunc = 1.9017e-06
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 140
+energy=-0.0997980639450778, max S=3.5154934026065026, age=5076, norm_err=1.0e-04
+Current memory usage 463.8MB, wall time: 528.1s
+Delta E = -6.5279e-03, Delta S = 5.7642e-02 (per sweep)
+max trunc_err = 1.3975e-07, max E_trunc = 2.7144e-06
+chi: [512, 510, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 150
+energy=-0.1656904662391033, max S=3.1146541941373966, age=5436, norm_err=1.1e-06
+Current memory usage 463.8MB, wall time: 543.3s
+Delta E = -6.5892e-03, Delta S = -6.6930e-02 (per sweep)
+max trunc_err = 9.5397e-08, max E_trunc = 1.8690e-06
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 160
+energy=-0.1213835363237952, max S=3.6558026497617915, age=5796, norm_err=5.2e-05
+Current memory usage 463.8MB, wall time: 569.9s
+Delta E = 4.4307e-03, Delta S = 6.4384e-02 (per sweep)
+max trunc_err = 1.2871e-07, max E_trunc = 2.5158e-06
+chi: [512, 511, 512, 511, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 170
+energy=-0.0562044636951479, max S=3.7667673623925597, age=6156, norm_err=1.7e-03
+Current memory usage 463.8MB, wall time: 571.6s
+Delta E = 6.5179e-03, Delta S = 3.3476e-02 (per sweep)
+max trunc_err = 1.0913e-07, max E_trunc = 2.1158e-06
+chi: [512, 511, 512, 510, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 180
+energy=-0.1329532299076845, max S=3.3165042518158416, age=6516, norm_err=3.6e-05
+Current memory usage 463.8MB, wall time: 575.8s
+Delta E = -7.6749e-03, Delta S = -4.7116e-02 (per sweep)
+max trunc_err = 1.3097e-07, max E_trunc = 2.5686e-06
+chi: [512, 510, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 190
+energy=-0.1055756952572059, max S=3.9588317656690122, age=6876, norm_err=2.8e-03
+Current memory usage 463.8MB, wall time: 566.9s
+Delta E = 2.7378e-03, Delta S = 4.2260e-02 (per sweep)
+max trunc_err = 1.1001e-07, max E_trunc = 2.1125e-06
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 200
+energy=0.0124166347237254, max S=3.7148578347246621, age=7236, norm_err=7.4e-05
+Current memory usage 463.8MB, wall time: 560.2s
+Delta E = 1.1799e-02, Delta S = -2.1312e-02 (per sweep)
+max trunc_err = 6.5987e-08, max E_trunc = 1.3124e-06
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 210
+energy=-0.1522972633256738, max S=3.7608146020822972, age=7596, norm_err=1.1e-04
+Current memory usage 463.8MB, wall time: 577.8s
+Delta E = -1.6471e-02, Delta S = 3.7632e-03 (per sweep)
+max trunc_err = 7.1064e-08, max E_trunc = 1.4105e-06
+chi: [512, 512, 512, 511, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization
+INFO:tenpy.algorithms.mps_common:start environment_sweep
+INFO:tenpy.algorithms.dmrg:checkpoint after sweep 220
+energy=0.0794056436196039, max S=2.3410662481822975, age=7956, norm_err=3.4e-05
+Current memory usage 463.8MB, wall time: 583.7s
+Delta E = 2.3170e-02, Delta S = -1.0983e-01 (per sweep)
+max trunc_err = 9.8161e-08, max E_trunc = 1.9320e-06
+chi: [512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512, 512]
+================================================================================
+INFO:tenpy.algorithms.dmrg:Running sweep with optimization

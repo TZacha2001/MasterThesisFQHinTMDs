@@ -122,7 +122,7 @@ def save_entspec(loc, filname, locLoad):
 
 def run_analyze(kwargs):
     params = kwargs.get('params')
-    OnlyEntspec = kwargs.get('OnlyEntspec', True)
+    OnlyEntspec = kwargs.get('OnlyEntspec', False)
 
     loc = params.get('loc')
     locLoad = params.get('locLoad')
