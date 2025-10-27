@@ -71,7 +71,8 @@ phis2 = [91]
 phis3 = [361]
 phis4 = [61]
 Chi_max = 512
-
+N_list = [2,4]
+K_list = [0,2,4]
 #Ks = np.arange(Ly)
 Ks_Ly3  = np.array([2])
 Ks_Ly6  = np.array([3])
@@ -81,8 +82,8 @@ Ks_Ly6  = np.array([3])
 V = 0.6000
 
 for Phis in phis4:
-    for N in N4:
-        for kk in K_N4:
+    for N in N_list:
+        for kk in K_list:
             fname = f'data_xk_Hofst_pi2_cpump_chi{Chi_max:d}_Lx{Lx:d}_Ly{Ly:d}_V{V:.2f}_t-1.0_tp{t2:.2f}_K{kk:d}_N{N:d}flux0.0-3.0-{Phis:d}.h5'
             params = {'loc': loc, 'locLoad': locLoad, 'fname':fname, 'target': 2}
             kwargs = {'params': params, 'OnlyEntspec': True}
